@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+}
+
+.phases {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(0.875rem, 2.5vw, 1.125rem);
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.phase-btn {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .phases {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .phases {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 901px) {
+  .phases {
+    max-width: 520px;
+  }
+}

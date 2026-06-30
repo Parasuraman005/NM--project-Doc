@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NM Project — Team Info</title>
+  <link rel="stylesheet" href="design-system.css" />
+  <link rel="stylesheet" href="team.css" />
+  <link rel="stylesheet" href="interactive-bg.css" />
+</head>
+<body>
+  <canvas id="interactive-bg" aria-hidden="true"></canvas>
+  <div class="container">
+    <header class="site-header">
+      <div class="avatar">
+        <img src="image1.jpg" alt="Image 1">
+      </div>
+      <h1>NM PROJECT</h1>
+      <div class="avatar">
+        <img src="image2.jpg" alt="Image 2">
+      </div>
+    </header>
+
+    <section class="team-card card">
+      <h2>Team Info</h2>
+      <ul class="team-list">
+        <li><span>1</span><span class="name">G PARASU RAMAN</span><span class="roll">311423148030</span></li>
+        <li><span>2</span><span class="name">K SARAVANAKUMAR</span><span class="roll">311423148040</span></li>
+        <li><span>3</span><span class="name">M MANIKANDAN</span><span class="roll">311423148022</span></li>
+        <li><span>4</span><span class="name">R SELVAM</span><span class="roll">311423148042</span></li>
+        <li><span>5</span><span class="name">K AZHAGU VELAN</span><span class="roll">311423148006</span></li>
+      </ul>
+    </section>
+
+    <div class="back-nav">
+      <button class="btn btn-back" onclick="goBack()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Back
+      </button>
+    </div>
+
+    <footer class="site-footer">
+      <p>@ All rights reserved — PA</p>
+    </footer>
+  </div>
+
+  <script src="interactive-bg.js"></script>
+  <script src="team.js"></script>
+</body>
+</html>

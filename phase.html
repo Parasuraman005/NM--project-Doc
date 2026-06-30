@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NM Project — Phase Documents</title>
+  <link rel="stylesheet" href="design-system.css" />
+  <link rel="stylesheet" href="phase.css" />
+  <link rel="stylesheet" href="interactive-bg.css" />
+</head>
+
+<body>
+  <canvas id="interactive-bg" aria-hidden="true"></canvas>
+  <div class="container">
+    <header class="top-icons site-header">
+      <div class="icon avatar">
+        <img src="image1.jpg" alt="Left Icon" />
+      </div>
+      <h1>NM PROJECT</h1>
+      <div class="icon avatar">
+        <img src="image2.jpg" alt="Right Icon" />
+      </div>
+    </header>
+
+    <div class="section-label card">Phase Documents</div>
+
+    <div class="phases">
+      <button class="btn phase-btn">Phase -1</button>
+      <button class="btn phase-btn">Phase -2</button>
+      <button class="btn phase-btn">Phase -3</button>
+      <button class="btn phase-btn">Phase -4</button>
+      <button class="btn phase-btn">Phase -5</button>
+    </div>
+
+    <div class="back-nav">
+      <button class="btn btn-back" onclick="goBack()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        Back
+      </button>
+    </div>
+
+    <footer class="site-footer">@ All rights reserved </footer>
+  </div>
+
+  <script src="interactive-bg.js"></script>
+  <script src="phase.js"></script>
+</body>
+
+</html>

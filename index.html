@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NM Project - Soil Nutrients</title>
+  <link rel="stylesheet" href="design-system.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="interactive-bg.css" />
+</head>
+
+<body>
+  <canvas id="interactive-bg" aria-hidden="true"></canvas>
+  <div class="container">
+    <header class="site-header">
+      <div class="avatar">
+        <img src="image1.jpg" alt="Left Image" />
+      </div>
+      <h1><span>NM</span> PROJECT</h1>
+      <div class="avatar">
+        <img src="image2.jpg" alt="Right Image" />
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h2>Soil Nutrients<br />Monitoring &amp; Management</h2>
+      </div>
+
+      <div class="button-grid">
+        <button class="btn" onclick="window.location.href='phase.html'">Phase Doc</button>
+        <button class="btn" onclick="openFile('NM_Presentation.pptx')">PPT</button>
+        <button class="btn" onclick="openFile('NM_Final_Doc.pdf')">Final Doc</button>
+        <button class="btn" onclick="window.location.href='team.html'">Team Info</button>
+        <button class="btn btn-cta" onclick="window.location.href='https://parasuraman005.github.io/FRAM-PA/'">FARM-PA
+          App</button>
+      </div>
+    </main>
+
+    <div class="back-nav">
+      <button class="btn btn-back" onclick="goBack()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        Back
+      </button>
+    </div>
+
+    <footer class="site-footer">
+      <p>@ All rights reserved — PA</p>
+    </footer>
+  </div>
+
+  <script src="interactive-bg.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
