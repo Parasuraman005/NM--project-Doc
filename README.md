@@ -35,17 +35,6 @@ c:/NN_project-main/
 └── team.css                   # Custom styles for the team list cards
 ```
 
-## 🚀 Getting Started
-1. Clone or download this project folder to your local machine.
-2. Open [index.html](file:///c:/NN_project-main/index.html) in any modern web browser.
-3. Place your document files (`NM_Presentation.pptx`, `NM_Final_Doc.pdf`, `Phase-1.pdf`, etc.) in the root folder to test downloads and document links successfully.
-
-## 📱 Responsive
-- Full fluid scaling using modern CSS `clamp()` functions for padding and font-sizes.
-- Grid systems adapt dynamically:
-  - Multi-column configurations for larger desktop viewports.
-  - Centered single-column button lists for tablets and mobile devices (< 600px).
-  - Safe-area insets padding on mobile screens.
 
 
 Use this link to open and access the live application: [FARM-PA App](https://parasuraman005.github.io/FRAM-PA/)
